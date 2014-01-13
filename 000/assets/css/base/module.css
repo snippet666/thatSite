@@ -1,0 +1,153 @@
+@charset "UTF-8"
+
+/* = module.css
+   サイト全体で使用するモジュールを記述。
+ ------------------ */
+
+/* = header
+-------------------- */
+/* = mod-switchLanguage */
+.mod-switchLanguage {
+}
+.mod-switchLanguage {
+	padding: 5px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 84.6%; /* 11px */
+	color: #999;
+}
+.mod-switchLanguage li {
+	display: inline;
+}
+.mod-switchLanguage li:first-child{
+	border-right: solid 1px #999;
+}
+.mod-switchLanguage li a {
+	padding: 0 5px;
+	margin: 0 auto;
+}
+
+/* mod-header */
+.mod-header {
+	background: #143486;
+	margin-bottom: 40px;
+}
+.mod-header .siteName {
+}
+.mod-header .gNav {
+	background: #1A2F49;
+	padding-left: 10px;
+}
+.mod-header .gNav dl {
+	float: left;
+	position: relative;
+}
+.mod-header .gNav dl dt {
+	font-weight: bold;
+}
+.mod-header .gNav dl dd {
+	position: absolute;
+	display: none;
+}
+.mod-header .gNav dl dd ul {
+	min-width: 200px;
+}
+.mod-header .gNav dl dd ul li {
+	border-top: #999 solid 1px;
+}
+.mod-header .gNav a {
+	display: block;
+	color : #fff;
+	padding: 15px 10px;
+	border-bottom: #008bc6 solid 1px;
+}
+.mod-header .gNav dl dd ul li a {
+	line-height: 1.3;
+	background: #38a1db;
+	white-space: nowrap;
+}
+/* :hover */
+.mod-header .gNav dl:hover dd {
+	display: block;
+}
+.mod-header .gNav dl:hover dt,
+.mod-header .gNav a:hover {
+	background: #0095D9;
+}
+/* clrfix */
+.mod-header .gNav:after {
+	content: "."; 
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.mod-header .gNav {
+	min-height: 1px;
+}
+* html .mod-header .gNav {
+ 	height: 1px;
+	/*¥*//*/
+	height: auto;
+	overflow: hidden;
+	/**/
+}
+
+/* = footer 
+-------------------- */
+/* mod-utilityLink */
+.mod-utilityLink {
+	margin-top: 40px;
+	border-top: #1A2F49 5px solid;
+	padding-top: 20px;
+	margin-bottom: 60px;
+	padding-right: 150px;/* mod-credit width */
+	font-size: 84.6%; /* 11px */
+}
+.mod-utilityLink .title {
+	font-weight: bold;
+}
+.mod-utilityLink .item {
+	float: left;
+	margin: 0 20px;
+}
+.mod-utilityLink .item dd {
+	padding-top: 10px;
+}
+.mod-utilityLink a:link {
+	color: #333;
+}
+/* clrfix */
+.mod-utilityLink:after {
+	content: "."; 
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.mod-utilityLink {
+	min-height: 1px;
+}
+* html .mod-utilityLink {
+ 	height: 1px;
+	/*¥*//*/
+	height: auto;
+	overflow: hidden;
+	/**/
+}
+
+/* mod-credit */
+.mod-credit {
+	border-bottom: #fcfcfc 50px solid;
+	position: relative;
+}
+.mod-credit ul {
+	position: absolute;
+	right: 0;
+	top: -100px;
+	width: 150px;
+background-color: red; /* 確認用 */
+}
+.mod-credit ul li {
+	height: 50px;
+}
