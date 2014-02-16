@@ -1,28 +1,27 @@
-@charset "UTF-8"
-
+@charset "UTF-8";
 /* = base.css
  * = 名前の通り、サイトのベースとなるところを記述していく
  * モジュールやオブジェクトに分類されるところは、それぞれのcssへ。
  * フォント指定、リンク指定、レイアウトの指定などを記述していく。
  ------------------ */
 body {
-	background-color: #fcfcfc;
-	color: #333;
+	background-color: #F1F4DE;
+	color: #5A4D43;
 	font-size: 13px;
 	font-family: Arial, Helvetica,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 	line-height: 1;
 }
 
 /* link */
-a:link    { color: #5c9084;}
-a:visited { color: #1f704c;}
-a:hover   { color: #006400;}
-a:active  { color: #5c9084;}
+a:link    { color: #53635D;}
+a:visited { color: #53635D;}
+a:hover   { color: #28302D;}
+a:active  { color: #28302D;}
 a img         { border-style: solid; }
-a:link img    { border-color: #5c9084;}
-a:visited img { border-color: #1f704c;}
-a:hover img   { border-color: #006400;}
-a:active img  { border-color: #5c9084;}
+a:link img    { border-color: #53635D;}
+a:visited img { border-color: #53635D;}
+a:hover img   { border-color: #28302D;}
+a:active img  { border-color: #28302D;}
 
 /* img */
 img {

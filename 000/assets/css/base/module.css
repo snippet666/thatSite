@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 /* = module.css
    サイト全体で使用するモジュールを記述。
@@ -29,13 +29,13 @@
 
 /* mod-header */
 .mod-header {
-	background: #143486;
+	background: #8B8374;
 	margin-bottom: 40px;
 }
 .mod-header .siteName {
 }
 .mod-header .gNav {
-	background: #1A2F49;
+	background: #A0BFB3;
 	padding-left: 10px;
 }
 .mod-header .gNav dl {
@@ -53,26 +53,30 @@
 	min-width: 200px;
 }
 .mod-header .gNav dl dd ul li {
-	border-top: #999 solid 1px;
+	border-top: #738980 solid 1px;
 }
 .mod-header .gNav a {
-	display: block;
+	text-decoration: none;
 	color : #fff;
+	text-shadow: rgb(115, 137, 128) 0px 0px 3px;
+	display: block;
 	padding: 15px 10px;
-	border-bottom: #008bc6 solid 1px;
 }
 .mod-header .gNav dl dd ul li a {
 	line-height: 1.3;
-	background: #38a1db;
+	background: #7E968C;
 	white-space: nowrap;
 }
 /* :hover */
 .mod-header .gNav dl:hover dd {
 	display: block;
 }
-.mod-header .gNav dl:hover dt,
+.mod-header .gNav dl:hover dt {
+	background: #7E968C;
+}
+.mod-header .gNav dl dt:hover,
 .mod-header .gNav a:hover {
-	background: #0095D9;
+	background: #89A398;
 }
 /* clrfix */
 .mod-header .gNav:after {
@@ -98,7 +102,7 @@
 /* mod-utilityLink */
 .mod-utilityLink {
 	margin-top: 40px;
-	border-top: #1A2F49 5px solid;
+	border-top: #8B8374 5px solid;
 	padding-top: 20px;
 	margin-bottom: 60px;
 	padding-right: 150px;/* mod-credit width */
