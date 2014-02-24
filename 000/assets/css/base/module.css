@@ -101,12 +101,10 @@
 -------------------- */
 /* mod-utilityLink */
 .mod-utilityLink {
-	margin-top: 40px;
 	border-top: #8B8374 5px solid;
 	padding-top: 20px;
 	margin-bottom: 60px;
 	padding-right: 150px;/* mod-credit width */
-	font-size: 84.6%; /* 11px */
 }
 .mod-utilityLink .title {
 	font-weight: bold;
@@ -116,7 +114,7 @@
 	margin: 0 20px;
 }
 .mod-utilityLink .item dd {
-	padding-top: 10px;
+	padding-top: 8px;
 }
 .mod-utilityLink a:link {
 	color: #333;
@@ -142,7 +140,7 @@
 
 /* mod-credit */
 .mod-credit {
-	border-bottom: #fcfcfc 50px solid;
+	border-bottom: #8B8374 50px solid;
 	position: relative;
 }
 .mod-credit ul {

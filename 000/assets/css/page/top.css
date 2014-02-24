@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* = top.css
+   トップページで使用するモジュールを記述。
+ ------------------ */
+
+/* = mod-aboutSite */
+.mod-aboutSite {
+	background: #A0BFB3;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.mod-aboutSite .title {
+	font-size: 130.7%; /* 17px */
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.mod-aboutSite .version {
+	line-height: 1.5;
+	min-height: 290px;
+	padding-left: 520px;
+}
+.mod-aboutSite .version > p {
+	text-indent: 1em;
+}
+
+/* = mod-news */
+.mod-news {
+	margin-bottom: 40px;
+}
+.mod-news .title {
+	font-size: 115.3%; /* 15px */
+	font-weight: bold;
+	background: #A0BFB3;
+	padding: 15px 20px;
+	margin-bottom: 5px;
+}
+.mod-news .list > * {
+	line-height: 1.5;
+	border-bottom: dotted 1px #5A4D43;
+	padding: 10px 80px 10px 0;
+	position: relative;
+}
+.mod-news .list .date {
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+/* = mod-mainMenu */
+.mod-mainMenu {
+	margin-bottom: 40px;
+	margin-left: -20px;
+}
+.mod-mainMenu > * {
+	background: #A0BFB3;
+	float: left;
+	width: 300px;
+	margin-left: 20px;
+}
+.mod-mainMenu .title {
+	font-size: 115.3%; /* 15px */
+	font-weight: bold;
+	padding: 15px 20px;
+}
+.mod-mainMenu .item {
+	padding: 170px 20px 10px;
+	margin: 0 -5px;
+	min-height: 5.5em;
+}
+.mod-mainMenu .item > * {
+	display: inline;
+	padding: 5px;
+	line-height: 1.8;
+}
+.mod-mainMenu .item a {
+	white-space: nowrap;
+}
+/* clrfix */
+.mod-mainMenu:after {
+	content: "."; 
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+..mod-mainMenu {
+	min-height: 1px;
+}
+* html .mod-mainMenu {
+ 	height: 1px;
+	/*¥*//*/
+	height: auto;
+	overflow: hidden;
+	/**/
+}
